@@ -9,7 +9,13 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    int d = 2 / 3 + 3 / 3 + 4 / 3;
+    
+    printf("%d",d)
+    
     return 0;
+
+
 }
+

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E8FC77191C61AB9900A47514 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8FC77181C61AB9900A47514 /* main.cpp */; };
+		E8FC77211C64705900A47514 /* gauss1to100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8FC771F1C64705900A47514 /* gauss1to100.cpp */; };
+		E8FC77241C6472F400A47514 /* hw1c1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8FC77221C6472F400A47514 /* hw1c1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		E8FC77151C61AB9900A47514 /* practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FC77181C61AB9900A47514 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E8FC771F1C64705900A47514 /* gauss1to100.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauss1to100.cpp; sourceTree = "<group>"; };
+		E8FC77201C64705900A47514 /* gauss1to100.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gauss1to100.hpp; sourceTree = "<group>"; };
+		E8FC77221C6472F400A47514 /* hw1c1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hw1c1.cpp; sourceTree = "<group>"; };
+		E8FC77231C6472F400A47514 /* hw1c1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hw1c1.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				E8FC77181C61AB9900A47514 /* main.cpp */,
+				E8FC77221C6472F400A47514 /* hw1c1.cpp */,
+				E8FC77231C6472F400A47514 /* hw1c1.hpp */,
+				E8FC771F1C64705900A47514 /* gauss1to100.cpp */,
+				E8FC77201C64705900A47514 /* gauss1to100.hpp */,
 			);
 			path = practice;
 			sourceTree = "<group>";
@@ -118,7 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FC77191C61AB9900A47514 /* main.cpp in Sources */,
+				E8FC77211C64705900A47514 /* gauss1to100.cpp in Sources */,
+				E8FC77241C6472F400A47514 /* hw1c1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +247,7 @@
 				E8FC771E1C61AB9900A47514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
